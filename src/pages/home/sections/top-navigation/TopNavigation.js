@@ -1,19 +1,15 @@
-import React from "react";
+import "./TopNavigation.css";
+import cartIcon from "../../../../assets/cart.svg";
+import logo from "../../../../assets/logo-white.svg";
 
 const TopNavigation = () => {
     return (
         <header className="header">
             <nav className="navigation">
-                <img
-                    src="./assets/logo-white.svg"
-                    alt="DeliziOso"
-                    className="logo-white"
-                />
+                <img src={logo} alt="DeliziOso" className="logo-white" />
                 <ul className="navigation__links">
                     <li>
-                        <a href="" id="navigation__link">
-                            Home
-                        </a>
+                        <a href="">Home</a>
                     </li>
                     <li>
                         <a href="">Menu</a>
@@ -33,7 +29,7 @@ const TopNavigation = () => {
                 </ul>
                 <div className="navigation__actions">
                     <figure>
-                        <img src="./assets/cart.svg" alt="Shopping Cart" />
+                        <img src={cartIcon} alt="Shopping Cart" />
                     </figure>
                     <button className="btn-small-green">Log In</button>
                 </div>

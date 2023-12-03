@@ -1,3 +1,6 @@
+import "./Hero.css";
+import spaghetti from "../../../../assets/hero.png";
+
 const Hero = () => {
     return (
         <section id="hero-section">
@@ -17,7 +20,7 @@ const Hero = () => {
 
                 <div className="hero-section__right">
                     <img
-                        src="./assets/hero.png"
+                        src={spaghetti}
                         alt="Spaghetti"
                         className="hero-section__img"
                     />
