@@ -4,6 +4,8 @@ import { Welcome } from "./sections/welcome/Welcome";
 import { Menu } from "./sections/menu/Menu";
 import { Chefs } from "./sections/chefs/Chefs";
 import { Reservation } from "./sections/reservation/Reservation";
+import { Testimonials } from "./sections/testimonials/Testimonials";
+import { Hours } from "./sections/hours/Hours";
 
 const Home = () => {
     return (
@@ -14,6 +16,8 @@ const Home = () => {
             <Menu />
             <Reservation />
             <Chefs />
+            <Testimonials />
+            <Hours />
         </>
     );
 };
