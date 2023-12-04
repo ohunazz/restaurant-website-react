@@ -20,12 +20,6 @@
     text-align: center;
 }
 
-.testimonials-section__testimonials {
-    /* display: flex; */
-    /* gap: 40px; */
-    /* justify-content: space-between; */
-}
-
 .testimonials-section__testimonial {
     width: 30%;
     /* text-align: center; */
