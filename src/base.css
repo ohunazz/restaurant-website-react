@@ -110,3 +110,69 @@ a {
     padding-left: 55px;
     cursor: pointer;
 }
+
+/*refactoring-Section*/
+
+.menu-section__container,
+.welcome-section__right,
+.chefs-section__container h2 {
+    font-size: 70px;
+}
+
+.welcome-section__right,
+.reservation-section__right,
+.hours-section__lunch-dinner p {
+    font-size: 20px;
+}
+
+.hero-section__container,
+.menu-section__meals,
+.reservation-section__container,
+.chefs-section__chefs,
+.testimonials-section__testimonials {
+    gap: 40px;
+}
+
+.navigation,
+.navigation__links,
+.navigation__actions,
+.welcome-section__container,
+.hero-section__container,
+.card__footer,
+.reservation-section__container,
+.hours-section__background {
+    align-items: center;
+}
+
+.navigation,
+.navigation__links,
+.navigation__actions,
+.welcome-section__container,
+.hero-section__container,
+.menu-section__filters,
+.menu-section__meals,
+.card__footer,
+.reservation-section__container,
+.chefs-section__chefs,
+.testimonials-section__testimonials,
+.hours-section__background,
+.footer__content {
+    display: flex;
+}
+
+.text-center,
+.card__title,
+.card__text,
+#chefs-section,
+.testimonials-section__testimonial,
+.hours-section__background {
+    text-align: center;
+}
+
+.footer__content,
+.navigation,
+.menu-section__filters,
+.card__footer,
+.testimonials-section__testimonials {
+    justify-content: space-between;
+}
